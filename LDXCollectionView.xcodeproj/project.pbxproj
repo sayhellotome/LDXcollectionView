@@ -15,6 +15,8 @@
 		528F902C20B278E9009DCEDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F902B20B278E9009DCEDF /* main.m */; };
 		528F903620B278E9009DCEDF /* LDXCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F903520B278E9009DCEDF /* LDXCollectionViewTests.m */; };
 		528F904120B278E9009DCEDF /* LDXCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F904020B278E9009DCEDF /* LDXCollectionViewUITests.m */; };
+		528F905020B279B2009DCEDF /* LDXCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F904F20B279B2009DCEDF /* LDXCollectionViewFlowLayout.m */; };
+		528F905320B27A95009DCEDF /* LDXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F905220B27A95009DCEDF /* LDXCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		528F903C20B278E9009DCEDF /* LDXCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDXCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528F904020B278E9009DCEDF /* LDXCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDXCollectionViewUITests.m; sourceTree = "<group>"; };
 		528F904220B278E9009DCEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528F904E20B279B2009DCEDF /* LDXCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDXCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		528F904F20B279B2009DCEDF /* LDXCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDXCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		528F905120B27A95009DCEDF /* LDXCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDXCollectionViewCell.h; sourceTree = "<group>"; };
+		528F905220B27A95009DCEDF /* LDXCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDXCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				528F901D20B278E7009DCEDF /* AppDelegate.m */,
 				528F901F20B278E7009DCEDF /* ViewController.h */,
 				528F902020B278E7009DCEDF /* ViewController.m */,
+				528F904E20B279B2009DCEDF /* LDXCollectionViewFlowLayout.h */,
+				528F904F20B279B2009DCEDF /* LDXCollectionViewFlowLayout.m */,
+				528F905120B27A95009DCEDF /* LDXCollectionViewCell.h */,
+				528F905220B27A95009DCEDF /* LDXCollectionViewCell.m */,
 				528F902220B278E7009DCEDF /* Main.storyboard */,
 				528F902520B278E9009DCEDF /* Assets.xcassets */,
 				528F902720B278E9009DCEDF /* LaunchScreen.storyboard */,
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528F905320B27A95009DCEDF /* LDXCollectionViewCell.m in Sources */,
 				528F902120B278E7009DCEDF /* ViewController.m in Sources */,
+				528F905020B279B2009DCEDF /* LDXCollectionViewFlowLayout.m in Sources */,
 				528F902C20B278E9009DCEDF /* main.m in Sources */,
 				528F901E20B278E7009DCEDF /* AppDelegate.m in Sources */,
 			);

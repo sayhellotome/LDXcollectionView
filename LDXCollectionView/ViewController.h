@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LDXCollectionViewFlowLayout.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIScrollViewDelegate>
+@property (weak, nonatomic) IBOutlet UICollectionView *ldxCollectionView;
+@property (weak, nonatomic) IBOutlet LDXCollectionViewFlowLayout *ldxCollectionViewFlowLayout;
+@property (nonatomic, assign) CGPoint oldScrollerViewContent;    //collectionView每次滑动后的偏移量
 @end
 
